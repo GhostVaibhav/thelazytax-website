@@ -19,3 +19,6 @@ body{font-weight:400;font-size:16px}.brand img{display:block;width:210px}.brand{
 .button .new-tab{filter:brightness(0) invert(1)}
 .brand,.beta,.hero-visual,.mail-example,.step-icon,.step-number,summary,.button,.new-tab{-webkit-user-select:none;user-select:none}
 img{-webkit-user-drag:none}
+
+/* Account deletion reuses the document layout and existing button treatment. */
+.deletion-request .button-primary{color:#fff}.site-footer nav{flex-wrap:wrap}
