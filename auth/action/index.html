@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#0e1116">
+  <meta name="description" content="Verify your email or securely reset your The Lazy Tax password.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src https://identitytoolkit.googleapis.com; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'">
+  <title>Your account — The Lazy Tax</title>
+  <link rel="icon" href="../../assets/favicon.png">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="action.css">
+  <script type="module" src="action.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="../../"><img src="../../assets/logo.png" alt="" width="160" height="160"><span>The Lazy Tax</span></a>
+    <nav aria-label="Main navigation"><a href="../../contact/">Contact</a></nav>
+  </header>
+  <main id="main" class="document auth-document">
+    <p class="eyebrow">THE LAZY TAX · YOUR ACCOUNT</p>
+    <h1 id="title" tabindex="-1">One quick check.</h1>
+    <p id="description" class="intro">Checking your email link…</p>
+    <section id="action-card" class="contact-option auth-card" aria-busy="true" aria-labelledby="title">
+      <p id="status" role="status" aria-live="polite">Please wait a moment.</p>
+      <form id="password-form" class="auth-form" hidden>
+        <div class="auth-field">
+          <label for="password">New password</label>
+          <input id="password" name="new-password" type="password" autocomplete="new-password" minlength="8" maxlength="128" required aria-describedby="password-help error">
+          <p id="password-help" class="auth-help">Use 8–128 characters. Make it a password you haven’t used elsewhere.</p>
+        </div>
+        <div class="auth-field">
+          <label for="confirm-password">Confirm new password</label>
+          <input id="confirm-password" name="confirm-password" type="password" autocomplete="new-password" minlength="8" maxlength="128" required aria-describedby="error">
+        </div>
+        <button id="save-password" class="button button-primary" type="submit">Save new password</button>
+      </form>
+      <button id="confirm-action" class="button button-primary" type="button" hidden>Verify email</button>
+      <p id="error" class="auth-error" role="alert" hidden></p>
+      <button id="retry" class="auth-retry" type="button" hidden>Try again</button>
+      <a id="home" class="button button-primary" href="../../" hidden>Back to The Lazy Tax</a>
+      <noscript><p>Enable JavaScript to complete this account action, then reload the page.</p></noscript>
+    </section>
+    <p class="auth-support">Need a hand? <a href="../../contact/">Contact us</a>.</p>
+  </main>
+  <footer class="site-footer wrap">
+    <div><a class="brand" href="../../"><img src="../../assets/logo.png" alt="" width="160" height="160"><span>The Lazy Tax</span></a><p>A little less later. A little more done.</p></div>
+    <nav aria-label="Footer navigation"><a href="../../privacy/">Privacy</a><a href="../../terms/">Terms</a><a href="../../contact/">Contact</a></nav>
+    <p class="copyright">© 2026 The Lazy Tax</p>
+  </footer>
+</body>
+</html>
